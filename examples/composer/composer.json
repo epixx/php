@@ -1,0 +1,8 @@
+{
+    "autoload": {
+    	"files": [
+    		"config/init.php",
+    		"lib/functions.php"
+    	]
+    }
+}

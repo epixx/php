@@ -1,0 +1,16 @@
+<?xml version='1.0'?>
+<root>
+    <name>Epic</name>
+    <url>epixx.ru</url>
+    <status>true</status>
+    <students>
+        <student>
+            <id>1</id>
+            <name>Petya</name>
+        </student>
+        <student>
+            <id>2</id>
+            <name>Vasya</name>
+        </student>
+    </students>
+</root>

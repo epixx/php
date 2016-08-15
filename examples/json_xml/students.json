@@ -1,0 +1,9 @@
+{
+    "name": "Epic",
+    "url": "epixx.ru",
+    "status": true,
+    "students": [
+        {"id": 1, "name": "Petya"},
+        {"id": 2, "name": "Vasya"}
+    ]
+}
