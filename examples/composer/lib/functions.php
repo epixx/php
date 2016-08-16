@@ -1,6 +1,7 @@
 <?php
 namespace Epic\Lib;
 
-function hello() {
+function hello()
+{
 	echo 'Hello!';
 }

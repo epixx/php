@@ -1,6 +1,7 @@
 <?php
 namespace Epic\Libs\Http;
 
-function hello() {
+function hello()
+{
     return 'Hello from second!';
 }

@@ -2,8 +2,8 @@
 
 // если метод запроса POST, то есть пришли данные с формы
 // то мы их записываем в базу данных
-if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    if(checkToken($_POST['token'])) {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if (checkToken($_POST['token'])) {
 
         $db = connection($db_config);
         $stmt = $db->prepare('UPDATE `messages` SET `message`=:message WHERE `id`=:id');

@@ -26,7 +26,7 @@ function connection($config)
 function template($filename, $data = [])
 {
     $content = '';
-    if(file_exists($filename)) {
+    if (file_exists($filename)) {
         ob_start();
         extract($data);
         require $filename;

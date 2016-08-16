@@ -26,7 +26,7 @@ $action_file = 'controllers/' . $action . '.php';
 
 // проверяем есть ли такой файл и подключаем его
 // иначе выводим шаблон с сообщением об ошибке
-if(file_exists($action_file)) {
+if (file_exists($action_file)) {
     require $action_file;
 } else {
     echo template('templates/error.php');

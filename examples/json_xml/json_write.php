@@ -1,7 +1,7 @@
 <?php
 
-$names[] = [ 'name' => 'Ivan', 'gender' => 'male'];
-$names[] = [ 'name' => 'Mia', 'gender' => 'female'];
+$names[] = ['name' => 'Ivan', 'gender' => 'male'];
+$names[] = ['name' => 'Mia', 'gender' => 'female'];
 
 $json = json_encode($names, JSON_UNESCAPED_UNICODE);
 
