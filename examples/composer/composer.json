@@ -1,8 +1,14 @@
 {
-    "autoload": {
-    	"files": [
-    		"config/init.php",
-    		"lib/functions.php"
-    	]
-    }
+	"require": {
+		"jbroadway/urlify": "1.0.*"
+	},
+	"autoload": {
+		"files": [
+			"config/init.php"
+		],
+		"psr-4": {
+			"Epic\\Controllers\\": "controllers",
+			"Epic\\Models\\": "models"
+		}
+	}
 }

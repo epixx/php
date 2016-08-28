@@ -1,3 +1,3 @@
 <?php
 
-echo 'Require config init file...';
+echo 'Подключен файл config/init.php<br>';
